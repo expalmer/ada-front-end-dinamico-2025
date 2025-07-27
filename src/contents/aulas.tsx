@@ -1,4 +1,4 @@
-import { GithubLink } from "../ui/GithubLink";
+import { NotionLink } from "../ui/NotionLink";
 import type { SectionProps } from "../ui/Sections";
 
 export const aula1: SectionProps = {
@@ -18,13 +18,18 @@ export const aula1: SectionProps = {
     },
     {
       title: "[ arquivos da aula ]",
-      children: [<GithubLink lesson={1} />],
+      children: [
+        <NotionLink
+          lesson={1}
+          href="https://expalmer.notion.site/Aula-1-Introdu-o-ao-DOM-Document-Object-Model-23d6ac493b4580ed9bd5d5b3b583ed28"
+        />,
+      ],
     },
   ],
 };
 
 export const aula2: SectionProps = {
-  subtitle: ["Aula 2", "Formulário reativo com JS e inicio do Todo List"],
+  subtitle: ["Aula 2", "Formulário reativo com JS"],
   items: [
     {
       title: "Criando um contador",
@@ -44,7 +49,12 @@ export const aula2: SectionProps = {
     },
     {
       title: "[ arquivos da aula ]",
-      children: [<GithubLink lesson={2} soon />],
+      children: [
+        <NotionLink
+          lesson={1}
+          href="https://expalmer.notion.site/Aula-2-Formul-rio-reativo-com-JS-23d6ac493b458021a7e0d66a97b00d97"
+        />,
+      ],
     },
   ],
 };
@@ -59,6 +69,10 @@ export const aula3: SectionProps = {
         "Opção de excluir um item",
         "Opção de editar um item",
       ],
+    },
+    {
+      title: "[ arquivos da aula ]",
+      children: [<NotionLink href="" lesson={3} soon />],
     },
   ],
 };
@@ -81,7 +95,7 @@ export const aula4: SectionProps = {
     },
     {
       title: "[ arquivos da aula ]",
-      children: [<GithubLink lesson={2} soon />],
+      children: [<NotionLink href="" lesson={4} soon />],
     },
   ],
 };
@@ -126,7 +140,7 @@ export const aula5: SectionProps = {
     },
     {
       title: "[ arquivos da aula ]",
-      children: [<GithubLink lesson={2} soon />],
+      children: [<NotionLink href="" lesson={5} soon />],
     },
   ],
 };
@@ -134,7 +148,7 @@ export const aula5: SectionProps = {
 export const aula6: SectionProps = {
   subtitle: [
     "Aula 6",
-    "Consumindo um CRUD API com Javascript para o Todo List",
+    "Consumindo um CRUD API com Javascript para o Task Manager",
   ],
   items: [
     {
@@ -142,7 +156,7 @@ export const aula6: SectionProps = {
       children: ["O que é um CRUD?", "Como consumir uma API com Javascript?"],
     },
     {
-      title: "Integrando com o Todo List",
+      title: "Integrando com o Task Manager",
       children: [
         "Create para adicionar um item",
         "Read para listar os itens",
@@ -150,6 +164,10 @@ export const aula6: SectionProps = {
         "Delete para excluir um item",
         "Patch para marcar como concluído",
       ],
+    },
+    {
+      title: "[ arquivos da aula ]",
+      children: [<NotionLink href="" lesson={6} soon />],
     },
   ],
 };
@@ -164,6 +182,10 @@ export const aula7: SectionProps = {
     {
       title: "Como configurar o projeto final usando Vite",
       children: ["Vamos configurar o projeto final usando Vite com typescript"],
+    },
+    {
+      title: "[ arquivos da aula ]",
+      children: [<NotionLink href="" lesson={7} soon />],
     },
   ],
 };

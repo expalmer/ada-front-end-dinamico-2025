@@ -1,9 +1,12 @@
+import type { JSX } from "react";
+
 type ButtonProps = {
   children: React.ReactNode;
   to?: string;
+  icon?: JSX.Element;
 };
 
-export const Button = ({ children, to }: ButtonProps) => {
+export const Button = ({ icon, children, to }: ButtonProps) => {
   return (
     <button
       type="button"
@@ -14,7 +17,8 @@ export const Button = ({ children, to }: ButtonProps) => {
         }
       }}
     >
-      <span className="px-5 py-1.5 transition-all ease-in duration-75 bg-black rounded-md hover:bg-transparent ">
+      <span className="px-5 py-1.5 transition-all ease-in duration-75 bg-black rounded-md hover:bg-transparent flex items-center gap-1">
+        {icon && <span>{icon}</span>}
         {children}
       </span>
     </button>
