@@ -35,7 +35,7 @@ export const Header = () => {
           </ul>
 
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdVpqbkEl3GTJWUSSsqrWCr3O4KAL2TpBEeLuTZkxfgxYsRwg/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdg221Qsa9ufSCbcf4EAmdhg5g3HV4ysXfP9YvciPcb62oVow/viewform?usp=dialog"
             target="_blank"
             title="Formulário de Dúvidas"
             className="text-white font-semibold hover:text-gray-400 absolute right-2 top-1/2 -translate-y-1/2"
