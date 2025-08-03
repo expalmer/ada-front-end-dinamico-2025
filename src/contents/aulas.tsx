@@ -51,7 +51,8 @@ export const aula2: SectionProps = {
       title: "[ arquivos da aula ]",
       children: [
         <NotionLink
-          lesson={1}
+          soon
+          lesson={2}
           href="https://expalmer.notion.site/Aula-2-Formul-rio-reativo-com-JS-23d6ac493b458021a7e0d66a97b00d97"
         />,
       ],
