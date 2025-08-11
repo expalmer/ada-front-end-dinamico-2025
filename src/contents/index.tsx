@@ -143,5 +143,9 @@ export const combinados: SectionProps = {
         "Mas claro... sempre que possível. Pois isso melhora nossa experiência em grupo",
       ],
     },
+    {
+      title: <span>Prencha o NPS a cada aula 📝</span>,
+      children: ["Lá no LMS clica na estrelinha ⭐"],
+    },
   ],
 };
