@@ -13,7 +13,6 @@ export const aula1: SectionProps = {
         "Introdução aos objetos window e document.",
         "Seletores getElementById, getElementsByClassname e querySelectors (diferenças, vantagens e desvantagens)",
         "Eventos em Javascript (addEventListener)",
-        "Callback functions",
       ],
     },
     {
@@ -29,8 +28,13 @@ export const aula1: SectionProps = {
 };
 
 export const aula2: SectionProps = {
-  subtitle: ["Aula 2", "Formulário reativo com JS"],
+  active: true,
+  subtitle: ["Aula 2", "Callbacks e formulário reativo com JS"],
   items: [
+    {
+      title: "Callback Functions",
+      children: ["Vamos entender o que são callbacks"],
+    },
     {
       title: "Criando um contador",
       children: ["Criando um contador que incrementa ou decrementa um valor"],
@@ -51,9 +55,8 @@ export const aula2: SectionProps = {
       title: "[ arquivos da aula ]",
       children: [
         <NotionLink
-          soon
           lesson={2}
-          href="https://expalmer.notion.site/Aula-2-Formul-rio-reativo-com-JS-23d6ac493b458021a7e0d66a97b00d97"
+          href="https://expalmer.notion.site/Aula-2-Callbacks-e-formul-rio-reativo-com-JS-23d6ac493b458021a7e0d66a97b00d97"
         />,
       ],
     },
