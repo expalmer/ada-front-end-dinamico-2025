@@ -96,8 +96,7 @@ export const aula4: SectionProps = {
       title: "Entendo LocalStorage",
       children: [
         "O que é LocalStorage?",
-        "Como salvar dados no LocalStorage?",
-        "Como recuperar dados do LocalStorage?",
+        "Como salvar e recuperar dados no LocalStorage?",
         "Fazendo o mesmo com o SessionStorage",
       ],
     },
