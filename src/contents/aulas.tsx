@@ -82,7 +82,6 @@ export const aula3: SectionProps = {
         <NotionLink
           href="https://expalmer.notion.site/Aula-3-Come-o-do-Task-Manager-23d6ac493b4580dd9222f6a602b59140"
           lesson={3}
-          soon
         />,
       ],
     },
