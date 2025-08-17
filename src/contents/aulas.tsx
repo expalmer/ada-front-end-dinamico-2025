@@ -89,6 +89,7 @@ export const aula3: SectionProps = {
 };
 
 export const aula4: SectionProps = {
+  active: true,
   subtitle: ["Aula 4", "LocalStorage e SessionStorage"],
   items: [
     {
