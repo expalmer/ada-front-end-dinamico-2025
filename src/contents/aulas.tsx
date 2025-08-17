@@ -70,14 +70,21 @@ export const aula3: SectionProps = {
     {
       title: "Criando um Task Manager",
       children: [
-        "Opção de marcar como concluído",
-        "Opção de excluir um item",
-        "Opção de editar um item",
+        "Adicionar item na lista",
+        "Criar um `estado` para controlar a lista",
+        "Remover um item",
+        "Marcar como `concluído`",
       ],
     },
     {
       title: "[ arquivos da aula ]",
-      children: [<NotionLink href="" lesson={3} soon />],
+      children: [
+        <NotionLink
+          href="https://expalmer.notion.site/Aula-3-Come-o-do-Task-Manager-23d6ac493b4580dd9222f6a602b59140"
+          lesson={3}
+          soon
+        />,
+      ],
     },
   ],
 };
