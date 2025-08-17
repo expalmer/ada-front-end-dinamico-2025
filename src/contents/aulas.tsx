@@ -101,12 +101,17 @@ export const aula4: SectionProps = {
       ],
     },
     {
-      title: "Aprimorando o Task Manager",
+      title: "Persistindo o Task Manager",
       children: ["Salvando o Task Manager no LocalStorage"],
     },
     {
       title: "[ arquivos da aula ]",
-      children: [<NotionLink href="" lesson={4} soon />],
+      children: [
+        <NotionLink
+          href="https://expalmer.notion.site/Aula-4-LocalStorage-e-SessionStorage-23d6ac493b4580c594b5c9d7eeab247e"
+          lesson={4}
+        />,
+      ],
     },
   ],
 };
