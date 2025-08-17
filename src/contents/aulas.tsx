@@ -64,6 +64,7 @@ export const aula2: SectionProps = {
 };
 
 export const aula3: SectionProps = {
+  active: true,
   subtitle: ["Aula 3", "Começo do Task Manager"],
   items: [
     {
