@@ -117,6 +117,7 @@ export const aula4: SectionProps = {
 };
 
 export const aula5: SectionProps = {
+  active: true,
   subtitle: ["Aula 5", "Callback, Promises, Async/Await e consumo de APIs"],
   items: [
     {
@@ -151,12 +152,13 @@ export const aula5: SectionProps = {
       children: ["O que é uma API e como consumir?"],
     },
     {
-      title: "Adicionar cards no Task Manager",
-      children: ["Adicionar cards no Task Manager", "Mudar card de coluna"],
-    },
-    {
       title: "[ arquivos da aula ]",
-      children: [<NotionLink href="" lesson={5} soon />],
+      children: [
+        <NotionLink
+          href="https://expalmer.notion.site/Aula-5-Callback-Promises-Async-Await-e-consumo-de-APIs-23d6ac493b458061afd1e27cedc771dc"
+          lesson={5}
+        />,
+      ],
     },
   ],
 };
