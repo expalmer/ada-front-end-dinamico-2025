@@ -32,6 +32,11 @@ export const Header = () => {
                 Trabalho
               </Link>
             </li>
+            <li>
+              <Link to="/links" className="nav">
+                Links
+              </Link>
+            </li>
           </ul>
 
           <a
