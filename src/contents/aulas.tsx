@@ -164,6 +164,7 @@ export const aula5: SectionProps = {
 };
 
 export const aula6: SectionProps = {
+  active: true,
   subtitle: [
     "Aula 6",
     "Consumindo um CRUD API com Javascript para o Task Manager",
@@ -185,7 +186,12 @@ export const aula6: SectionProps = {
     },
     {
       title: "[ arquivos da aula ]",
-      children: [<NotionLink href="" lesson={6} soon />],
+      children: [
+        <NotionLink
+          href="https://expalmer.notion.site/Aula-6-Consumindo-um-CRUD-API-com-Javascript-para-o-Task-Manager-23d6ac493b458030b544e9f1b6c53b1c"
+          lesson={6}
+        />,
+      ],
     },
   ],
 };
